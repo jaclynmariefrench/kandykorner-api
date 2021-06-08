@@ -46,7 +46,44 @@
             "productTypeId": 4
         }
     ],
-    "employees" : [],
+    "employees" : [
+        {
+            "id": 1,
+            "name": "Sharon Este",
+            "locationId": 3,
+            "manager": true,
+            "fullTime": true,
+            "hourlyRate": 20.50
+
+        },
+        {
+            "id": 2,
+            "name": "Janice Everly",
+            "locationId": 1,
+            "manager": false,
+            "fullTime": false,
+            "hourlyRate": 10.50
+
+        },
+        {
+            "id": 3,
+            "name": "Brittney Pierce",
+            "locationId": 2,
+            "manager": false,
+            "fullTime": true,
+            "hourlyRate": 11.00
+
+        },
+        {
+            "id": 4,
+            "name": "Joseph Barrett",
+            "locationId": 2,
+            "manager": false,
+            "fullTime": true,
+            "hourlyRate": 10.50
+
+        }
+    ],
     "productTypes" : [
         {
             "id": 1,
