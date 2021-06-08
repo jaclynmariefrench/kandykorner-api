@@ -19,8 +19,57 @@
             "isHandicap": false
         }
     ],
-    "products" : [],
+    "products" : [
+        {
+            "id": 1,
+            "name": "Hersheys",
+            "price": 5.50,
+            "typeId": 3
+            
+        },
+        {
+            "id": 2,
+            "name": "Gumdrops", 
+            "price": 2.20,
+            "typeId": 1
+        },
+        {
+            "id": 3,
+            "name": "Extra Peppermint",
+            "price": 2.00,
+            "typeId": 2
+        },
+        {
+            "id": 4,
+            "name": "Sprite",
+            "price": 3.00,
+            "typeId": 4
+        }
+    ],
     "employees" : [],
-    "productTypes" : [],
+    "productTypes" : [
+        {
+            "id": 1,
+            "name": "Hard Candy",
+            "typeId": 1
+            
+        },
+        {
+            "id": 2,
+            "name": "Gum",
+            "typeId": 2
+        },
+        {
+            "id": 3,
+            "name": "Chocolate",
+            "typeId": 3
+        },
+        {
+            "id": 4,
+            "name": "Sodas",
+            "typeId": 4
+        }
+
+    ],
     "customers" : []
 }
