@@ -24,50 +24,46 @@
             "id": 1,
             "name": "Hersheys",
             "price": 5.50,
-            "typeId": 3
+            "productTypeId": 3
             
         },
         {
             "id": 2,
             "name": "Gumdrops", 
             "price": 2.20,
-            "typeId": 1
+            "productTypeId": 1
         },
         {
             "id": 3,
             "name": "Extra Peppermint",
             "price": 2.00,
-            "typeId": 2
+            "productTypeId": 2
         },
         {
             "id": 4,
             "name": "Sprite",
             "price": 3.00,
-            "typeId": 4
+            "productTypeId": 4
         }
     ],
     "employees" : [],
     "productTypes" : [
         {
             "id": 1,
-            "name": "Hard Candy",
-            "typeId": 1
+            "name": "Hard Candy"
             
         },
         {
             "id": 2,
-            "name": "Gum",
-            "typeId": 2
+            "name": "Gum"
         },
         {
             "id": 3,
-            "name": "Chocolate",
-            "typeId": 3
+            "name": "Chocolate"
         },
         {
             "id": 4,
-            "name": "Sodas",
-            "typeId": 4
+            "name": "Sodas"
         }
 
     ],
