@@ -18,5 +18,9 @@
             "footage": 550,
             "isHandicap": false
         }
-    ]
+    ],
+    "products" : [],
+    "employees" : [],
+    "productTypes" : [],
+    "customers" : []
 }
