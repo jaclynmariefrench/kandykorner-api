@@ -1,0 +1,22 @@
+{
+    "locations" : [
+        {
+            "id": 1,
+            "address": "111 Park Ave",
+            "footage": 1000,
+            "isHandicap": true
+        },
+        {
+            "id": 2,
+            "address": "555 Door Park",
+            "footage": 3000,
+            "isHandicap": true
+        },
+        {
+            "id": 3,
+            "address": "101 Subway Blvd",
+            "footage": 550,
+            "isHandicap": false
+        }
+    ]
+}
