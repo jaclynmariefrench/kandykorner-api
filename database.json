@@ -124,5 +124,29 @@
       "name": "Sodas"
     }
   ],
-  "customers": []
+  "customers": [
+    {
+      "id": 1,
+      "name": "Janice Everly",
+      "email": "janice@kandy.com"
+    },
+    {
+      "email": "anna@kandy.com",
+      "name": "Anna Banna",
+      "id": 2
+    }
+  ],
+  "candyOrder": [
+    {
+      "id": 1,
+      "productId": 2,
+      "customerId": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    }
+  ]
 }
