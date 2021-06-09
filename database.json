@@ -1,108 +1,128 @@
 {
-    "locations" : [
-        {
-            "id": 1,
-            "address": "111 Park Ave",
-            "footage": 1000,
-            "isHandicap": true
-        },
-        {
-            "id": 2,
-            "address": "555 Door Park",
-            "footage": 3000,
-            "isHandicap": true
-        },
-        {
-            "id": 3,
-            "address": "101 Subway Blvd",
-            "footage": 550,
-            "isHandicap": false
-        }
-    ],
-    "products" : [
-        {
-            "id": 1,
-            "name": "Hersheys",
-            "price": 5.50,
-            "productTypeId": 3
-            
-        },
-        {
-            "id": 2,
-            "name": "Gumdrops", 
-            "price": 2.20,
-            "productTypeId": 1
-        },
-        {
-            "id": 3,
-            "name": "Extra Peppermint",
-            "price": 2.00,
-            "productTypeId": 2
-        },
-        {
-            "id": 4,
-            "name": "Sprite",
-            "price": 3.00,
-            "productTypeId": 4
-        }
-    ],
-    "employees" : [
-        {
-            "id": 1,
-            "name": "Sharon Este",
-            "locationId": 3,
-            "manager": true,
-            "fullTime": true,
-            "hourlyRate": 20.50
-
-        },
-        {
-            "id": 2,
-            "name": "Janice Everly",
-            "locationId": 1,
-            "manager": false,
-            "fullTime": false,
-            "hourlyRate": 10.50
-
-        },
-        {
-            "id": 3,
-            "name": "Brittney Pierce",
-            "locationId": 2,
-            "manager": false,
-            "fullTime": true,
-            "hourlyRate": 11.00
-
-        },
-        {
-            "id": 4,
-            "name": "Joseph Barrett",
-            "locationId": 2,
-            "manager": false,
-            "fullTime": true,
-            "hourlyRate": 10.50
-
-        }
-    ],
-    "productTypes" : [
-        {
-            "id": 1,
-            "name": "Hard Candy"
-            
-        },
-        {
-            "id": 2,
-            "name": "Gum"
-        },
-        {
-            "id": 3,
-            "name": "Chocolate"
-        },
-        {
-            "id": 4,
-            "name": "Sodas"
-        }
-
-    ],
-    "customers" : []
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "111 Park Ave",
+      "footage": 1000,
+      "isHandicap": true
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "555 Door Park",
+      "footage": 3000,
+      "isHandicap": true
+    },
+    {
+      "id": 3,
+      "name": "Franklin",
+      "address": "101 Subway Blvd",
+      "footage": 550,
+      "isHandicap": false
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Hersheys",
+      "price": 5.5,
+      "productTypeId": 3
+    },
+    {
+      "id": 2,
+      "name": "Gumdrops",
+      "price": 2.2,
+      "productTypeId": 1
+    },
+    {
+      "id": 3,
+      "name": "Extra Peppermint",
+      "price": 2,
+      "productTypeId": 2
+    },
+    {
+      "id": 4,
+      "name": "Sprite",
+      "price": 3,
+      "productTypeId": 4
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Sharon Este",
+      "locationId": 3,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 20.5
+    },
+    {
+      "id": 2,
+      "name": "Janice Everly",
+      "locationId": 1,
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": 10.5
+    },
+    {
+      "id": 3,
+      "name": "Brittney Pierce",
+      "locationId": 2,
+      "manager": false,
+      "fullTime": true,
+      "hourlyRate": 11
+    },
+    {
+      "id": 4,
+      "name": "Joseph Barrett",
+      "locationId": 2,
+      "manager": false,
+      "fullTime": true,
+      "hourlyRate": 10.5
+    },
+    {
+      "name": "Becky becks",
+      "locationId": 1,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 20.5,
+      "id": 5
+    },
+    {
+      "name": "Jaclyn French",
+      "locationId": 1,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 44.44,
+      "id": 6
+    },
+    {
+      "name": "Potato Sauce",
+      "locationId": 3,
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": 1,
+      "id": 7
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "name": "Hard Candy"
+    },
+    {
+      "id": 2,
+      "name": "Gum"
+    },
+    {
+      "id": 3,
+      "name": "Chocolate"
+    },
+    {
+      "id": 4,
+      "name": "Sodas"
+    }
+  ],
+  "customers": []
 }
