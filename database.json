@@ -136,17 +136,12 @@
       "id": 2
     }
   ],
-  "candyOrder": [
+  "customerOrders": [
     {
       "id": 1,
       "productId": 2,
       "customerId": 1
-    },
-    {
-      "id": 2
-    },
-    {
-      "id": 3
     }
+    
   ]
 }
