@@ -1,1 +1,2 @@
 # kandykorner-api
+Candy data. 🍭
